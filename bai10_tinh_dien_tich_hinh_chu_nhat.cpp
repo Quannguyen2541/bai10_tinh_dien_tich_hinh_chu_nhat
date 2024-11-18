@@ -5,14 +5,16 @@
 using namespace std;
 
 int main() {
-	float chieudai, chieurong, dientich{};
-	
-	cout << "Nhap chieudai:";
+	cout << " Chuong trinh tinh chu vi dien tich hinh chu nhat\n";
+	double chieudai, chieurong, chuvi,dientich;
+	cout << "Nhap a (chieu dai):\n";
 	cin >> chieudai;
-	cout << "Nhap chieurong:";
+	cout << "Nhap b (chieu rong):\n";
 	cin >> chieurong;
-
+	chuvi = (chieudai + chieurong) * 2;
 	dientich = chieudai * chieurong;
-	cout << "dien tich hinh chu nhat la :" << dientich << endl;
+	cout << "chu vi hinh chu nhat la:\n" << chuvi << endl;
+	cout << "dien tich hinh chu nhat la:\n" << dientich << endl;
 	return 0;
+
 }
